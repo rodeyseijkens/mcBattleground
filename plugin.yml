@@ -1,0 +1,17 @@
+name: mcBattleground
+main: nl.rodey.mcBattleground.mcBattlegroundMain
+version: 1.1.6
+commands:
+    mcbg:
+        description: mcBattleground commands
+        usage: "/mcbg join or /mcbg restart"
+    t:
+        description: Team chat
+        usage: "/t MESSAGE"
+permissions:
+    mcBattleground.restart:
+        description: Allows you to restart the game when it is finished
+        default: true
+    mcBattleground.chooseteam:
+        description: Allows you to choose a team to join
+        default: false
